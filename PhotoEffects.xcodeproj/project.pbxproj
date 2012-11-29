@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1704491166809B4008E0DE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1704490166809B4008E0DE4 /* UIKit.framework */; };
+		D1704493166809B4008E0DE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1704492166809B4008E0DE4 /* Foundation.framework */; };
+		D1704495166809B4008E0DE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1704494166809B4008E0DE4 /* CoreGraphics.framework */; };
+		D170449B166809B4008E0DE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1704499166809B4008E0DE4 /* InfoPlist.strings */; };
+		D170449D166809B4008E0DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D170449C166809B4008E0DE4 /* main.m */; };
+		D17044A1166809B4008E0DE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D17044A0166809B4008E0DE4 /* AppDelegate.m */; };
+		D17044A3166809B4008E0DE4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D17044A2166809B4008E0DE4 /* Default.png */; };
+		D17044A5166809B4008E0DE4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17044A4166809B4008E0DE4 /* Default@2x.png */; };
+		D17044A7166809B4008E0DE4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17044A6166809B4008E0DE4 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D170448C166809B4008E0DE4 /* PhotoEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1704490166809B4008E0DE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1704492166809B4008E0DE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1704494166809B4008E0DE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1704498166809B4008E0DE4 /* PhotoEffects-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoEffects-Info.plist"; sourceTree = "<group>"; };
+		D170449A166809B4008E0DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D170449C166809B4008E0DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D170449E166809B4008E0DE4 /* PhotoEffects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoEffects-Prefix.pch"; sourceTree = "<group>"; };
+		D170449F166809B4008E0DE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D17044A0166809B4008E0DE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D17044A2166809B4008E0DE4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D17044A4166809B4008E0DE4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D17044A6166809B4008E0DE4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1704489166809B4008E0DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1704491166809B4008E0DE4 /* UIKit.framework in Frameworks */,
+				D1704493166809B4008E0DE4 /* Foundation.framework in Frameworks */,
+				D1704495166809B4008E0DE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1704481166809B4008E0DE4 = {
+			isa = PBXGroup;
+			children = (
+				D1704496166809B4008E0DE4 /* PhotoEffects */,
+				D170448F166809B4008E0DE4 /* Frameworks */,
+				D170448D166809B4008E0DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D170448D166809B4008E0DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D170448C166809B4008E0DE4 /* PhotoEffects.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D170448F166809B4008E0DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1704490166809B4008E0DE4 /* UIKit.framework */,
+				D1704492166809B4008E0DE4 /* Foundation.framework */,
+				D1704494166809B4008E0DE4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1704496166809B4008E0DE4 /* PhotoEffects */ = {
+			isa = PBXGroup;
+			children = (
+				D170449F166809B4008E0DE4 /* AppDelegate.h */,
+				D17044A0166809B4008E0DE4 /* AppDelegate.m */,
+				D1704497166809B4008E0DE4 /* Supporting Files */,
+			);
+			path = PhotoEffects;
+			sourceTree = "<group>";
+		};
+		D1704497166809B4008E0DE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1704498166809B4008E0DE4 /* PhotoEffects-Info.plist */,
+				D1704499166809B4008E0DE4 /* InfoPlist.strings */,
+				D170449C166809B4008E0DE4 /* main.m */,
+				D170449E166809B4008E0DE4 /* PhotoEffects-Prefix.pch */,
+				D17044A2166809B4008E0DE4 /* Default.png */,
+				D17044A4166809B4008E0DE4 /* Default@2x.png */,
+				D17044A6166809B4008E0DE4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D170448B166809B4008E0DE4 /* PhotoEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17044AA166809B4008E0DE4 /* Build configuration list for PBXNativeTarget "PhotoEffects" */;
+			buildPhases = (
+				D1704488166809B4008E0DE4 /* Sources */,
+				D1704489166809B4008E0DE4 /* Frameworks */,
+				D170448A166809B4008E0DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoEffects;
+			productName = PhotoEffects;
+			productReference = D170448C166809B4008E0DE4 /* PhotoEffects.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1704483166809B4008E0DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Vincenzo Romano";
+			};
+			buildConfigurationList = D1704486166809B4008E0DE4 /* Build configuration list for PBXProject "PhotoEffects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1704481166809B4008E0DE4;
+			productRefGroup = D170448D166809B4008E0DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D170448B166809B4008E0DE4 /* PhotoEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D170448A166809B4008E0DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D170449B166809B4008E0DE4 /* InfoPlist.strings in Resources */,
+				D17044A3166809B4008E0DE4 /* Default.png in Resources */,
+				D17044A5166809B4008E0DE4 /* Default@2x.png in Resources */,
+				D17044A7166809B4008E0DE4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1704488166809B4008E0DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D170449D166809B4008E0DE4 /* main.m in Sources */,
+				D17044A1166809B4008E0DE4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1704499166809B4008E0DE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D170449A166809B4008E0DE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D17044A8166809B4008E0DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D17044A9166809B4008E0DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D17044AB166809B4008E0DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoEffects/PhotoEffects-Prefix.pch";
+				INFOPLIST_FILE = "PhotoEffects/PhotoEffects-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D17044AC166809B4008E0DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoEffects/PhotoEffects-Prefix.pch";
+				INFOPLIST_FILE = "PhotoEffects/PhotoEffects-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1704486166809B4008E0DE4 /* Build configuration list for PBXProject "PhotoEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17044A8166809B4008E0DE4 /* Debug */,
+				D17044A9166809B4008E0DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17044AA166809B4008E0DE4 /* Build configuration list for PBXNativeTarget "PhotoEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17044AB166809B4008E0DE4 /* Debug */,
+				D17044AC166809B4008E0DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1704483166809B4008E0DE4 /* Project object */;
+}
