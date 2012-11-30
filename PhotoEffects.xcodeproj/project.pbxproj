@@ -16,6 +16,10 @@
 		D17044A3166809B4008E0DE4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D17044A2166809B4008E0DE4 /* Default.png */; };
 		D17044A5166809B4008E0DE4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17044A4166809B4008E0DE4 /* Default@2x.png */; };
 		D17044A7166809B4008E0DE4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D17044A6166809B4008E0DE4 /* Default-568h@2x.png */; };
+		D17044B71668130B008E0DE4 /* PhotoProcessingController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17044B61668130B008E0DE4 /* PhotoProcessingController.m */; };
+		D17044BC166818A1008E0DE4 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17044BB166818A1008E0DE4 /* image.jpg */; };
+		D17044C216682B59008E0DE4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17044C116682B59008E0DE4 /* QuartzCore.framework */; };
+		D17044C416683DC2008E0DE4 /* heart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17044C316683DC2008E0DE4 /* heart.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,11 @@
 		D17044A2166809B4008E0DE4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D17044A4166809B4008E0DE4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D17044A6166809B4008E0DE4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D17044B51668130B008E0DE4 /* PhotoProcessingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoProcessingController.h; sourceTree = "<group>"; };
+		D17044B61668130B008E0DE4 /* PhotoProcessingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoProcessingController.m; sourceTree = "<group>"; };
+		D17044BB166818A1008E0DE4 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		D17044C116682B59008E0DE4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D17044C316683DC2008E0DE4 /* heart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heart.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17044C216682B59008E0DE4 /* QuartzCore.framework in Frameworks */,
 				D1704491166809B4008E0DE4 /* UIKit.framework in Frameworks */,
 				D1704493166809B4008E0DE4 /* Foundation.framework in Frameworks */,
 				D1704495166809B4008E0DE4 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +78,7 @@
 		D170448F166809B4008E0DE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D17044C116682B59008E0DE4 /* QuartzCore.framework */,
 				D1704490166809B4008E0DE4 /* UIKit.framework */,
 				D1704492166809B4008E0DE4 /* Foundation.framework */,
 				D1704494166809B4008E0DE4 /* CoreGraphics.framework */,
@@ -78,6 +89,9 @@
 		D1704496166809B4008E0DE4 /* PhotoEffects */ = {
 			isa = PBXGroup;
 			children = (
+				D17044B816681891008E0DE4 /* assets */,
+				D17044B51668130B008E0DE4 /* PhotoProcessingController.h */,
+				D17044B61668130B008E0DE4 /* PhotoProcessingController.m */,
 				D170449F166809B4008E0DE4 /* AppDelegate.h */,
 				D17044A0166809B4008E0DE4 /* AppDelegate.m */,
 				D1704497166809B4008E0DE4 /* Supporting Files */,
@@ -97,6 +111,15 @@
 				D17044A6166809B4008E0DE4 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D17044B816681891008E0DE4 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D17044C316683DC2008E0DE4 /* heart.jpg */,
+				D17044BB166818A1008E0DE4 /* image.jpg */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +177,8 @@
 				D17044A3166809B4008E0DE4 /* Default.png in Resources */,
 				D17044A5166809B4008E0DE4 /* Default@2x.png in Resources */,
 				D17044A7166809B4008E0DE4 /* Default-568h@2x.png in Resources */,
+				D17044BC166818A1008E0DE4 /* image.jpg in Resources */,
+				D17044C416683DC2008E0DE4 /* heart.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +191,7 @@
 			files = (
 				D170449D166809B4008E0DE4 /* main.m in Sources */,
 				D17044A1166809B4008E0DE4 /* AppDelegate.m in Sources */,
+				D17044B71668130B008E0DE4 /* PhotoProcessingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +265,7 @@
 				GCC_PREFIX_HEADER = "PhotoEffects/PhotoEffects-Prefix.pch";
 				INFOPLIST_FILE = "PhotoEffects/PhotoEffects-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -250,6 +277,7 @@
 				GCC_PREFIX_HEADER = "PhotoEffects/PhotoEffects-Prefix.pch";
 				INFOPLIST_FILE = "PhotoEffects/PhotoEffects-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -273,6 +301,7 @@
 				D17044AC166809B4008E0DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
